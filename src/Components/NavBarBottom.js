@@ -3,7 +3,7 @@ import "../App.css";
 
 const NavBarBottom = () => {
   return (
-    <div class="container mt-5  ">
+    <div class="container mt-5 pb-5 ">
       <div className="mt_50"></div>
       <div class="row">
         <div class="col mt-5">
