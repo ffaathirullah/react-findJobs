@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import NavBarBottom from "./Components/NavBarBottom";
 import MyPaper from "./Components/Paper";
+import BottomCarousel from "./Components/BottomCarousel";
 
 function App() {
   const image_url =
@@ -18,6 +19,7 @@ function App() {
         <NavBarBottom />
       </div>
       <MyPaper />
+      <BottomCarousel />
     </div>
   );
 }

@@ -10,6 +10,12 @@
 .mt_50 {
   margin-top: 9em;
 }
+.pt_100 {
+  padding-top: 8em;
+}
+.pb_100 {
+  padding-bottom: 7em;
+}
 .navBarBott {
   background-color: #ffff;
   margin-bottom: 3em;
@@ -24,4 +30,30 @@
 .paper2:hover {
   border-radius: 0px !important;
   box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+}
+
+.containerBottomCarousel {
+  background-image: url("https://apusthemes.com/wp-demo/superio/wp-content/uploads/2021/03/bg_shape.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btnSeacrh {
+  color: blue;
+  width: 10em;
+  height: 3em;
+}
+.btnSeacrh:hover {
+  color: #ffff;
+  background-color: #1967d3;
+}
+
+.btnApply {
+  width: 10em;
+  height: 3em;
+  color: #ffff;
+}
+.btnApply:hover {
+  background-color: #ffff;
+  color: blue;
 }
