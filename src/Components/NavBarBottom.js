@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import navBarBottom from "../assests/images/navBarImage.png";
 
 const NavBarBottom = () => {
   return (

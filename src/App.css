@@ -57,3 +57,10 @@
   background-color: #ffff;
   color: blue;
 }
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #e5ebf5;
+  color: rgb(15, 15, 14);
+}

@@ -24,3 +24,21 @@
 .testimonial .slick-dots li {
   top: 15px;
 }
+
+.navbar-dark .navbar-brand {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+}
+
+.btn-outline-light {
+  color: #000;
+  border-color: #000;
+}

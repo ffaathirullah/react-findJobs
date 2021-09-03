@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import ModalLoginSignUp from "./ModalLoginSignUp";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -216,7 +217,13 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <button type="button" class="btn btn-outline-light ms-5">
+            <button
+              type="button"
+              class="btn btn-outline-light ms-5 "
+              data-bs-toggle="modal"
+              href="#exampleModalToggle"
+              role="button"
+            >
               Login / Register
             </button>
             <button type="button" class="btn btn-light ms-4">
@@ -225,6 +232,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <ModalLoginSignUp />
     </nav>
   );
 };
