@@ -2,7 +2,7 @@ import React from "react";
 
 const BottomCarousel = () => {
   return (
-    <div className="containerBottomCarousel mt-4">
+    <div className="containerBottomCarousel ">
       <div className="pt_100"></div>
       <div>
         <h2 className="skillss text-white ">Your Dream Jobs Are Waiting</h2>

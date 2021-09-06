@@ -1,9 +1,8 @@
 import React from "react";
-import Navbar from "./../Components/Navbar";
-import BreadCrimp from "./../Components/BreadCrimp";
-import "../Testimonial.css";
-import BottomNavContent from "./../Components/BottomNavContent";
-import Footer from "./../Components/Footer";
+import NavbarListJobs from "../Components/listJobs/NavbarListJobs";
+import BreadCrimp from "../Components/listJobs/BreadCrump";
+import BottomNavContent from "../Components/listJobs/BottomNavContent";
+import Footer from "../Components/Footer";
 
 const ListJobs = () => {
   return (
@@ -13,7 +12,7 @@ const ListJobs = () => {
           backgroundColor: "#ffffff",
         }}
       >
-        <Navbar style={{ color: "#00000" }} />
+        <NavbarListJobs />
       </div>
       <BreadCrimp />
       <BottomNavContent />

@@ -21,7 +21,7 @@ const Footer = () => {
       >
         <section
           class="d-flex justify-content-between p-4"
-          style={{ backgroundColor: "#6351ce" }}
+          style={{ backgroundColor: "#302EA7" }}
         >
           <div class="me-5">
             <span>Get connected with us on social networks:</span>
@@ -140,7 +140,7 @@ const Footer = () => {
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{
                     width: "60px",
-                    backgroundColor: "#7c4dff",
+                    backgroundColor: "#302EA7",
                     height: "2px",
                   }}
                 />

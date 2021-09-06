@@ -1,11 +1,15 @@
 import React from "react";
-import "../App.css";
-import ModalLoginSignUp from "./ModalLoginSignUp";
-const Navbar = () => {
+import "../../App.css";
+import ModalLoginSignUp from "../ModalLoginSignUp";
+import { Link } from "react-router-dom";
+// import "./navbar.css";
+const NavbarListJobs = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav className="navbar navbar-expand-lg navbar-dark navColor">
       <div class="container mt-4">
-        <a class="navbar-brand mt-1 h1">Find Jobs</a>
+        <a className="navColor navbar-brand mt-1 h1" style={{ color: "#000" }}>
+          Find Jobs
+        </a>
 
         <button
           class="navbar-toggler"
@@ -23,22 +27,22 @@ const Navbar = () => {
             <li class="nav-item dropdown ms-5 ms-2">
               <a
                 class="nav-link dropdown-toggle active"
-                href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Home
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <Link to="/" class="dropdown-item" href="#">
                     Action
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -46,7 +50,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -61,17 +65,18 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Find Jobs
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -79,7 +84,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -94,17 +99,18 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Epmloyers
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -112,7 +118,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -127,17 +133,18 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Candidates
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -145,7 +152,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -160,17 +167,18 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Blog
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -178,7 +186,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -193,17 +201,18 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                style={{ color: "#000" }}
               >
                 Pages
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Another action
                   </a>
                 </li>
@@ -211,7 +220,7 @@ const Navbar = () => {
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#" style={{ color: "#000" }}>
                     Something else here
                   </a>
                 </li>
@@ -223,10 +232,15 @@ const Navbar = () => {
               data-bs-toggle="modal"
               href="#exampleModalToggle"
               role="button"
+              style={{ color: "#000" }}
             >
               Login / Register
             </button>
-            <button type="button" class="btn btn-light ms-4">
+            <button
+              type="button"
+              class="btn btn-light ms-4"
+              style={{ color: "#000" }}
+            >
               Add Jobs
             </button>
           </ul>
@@ -237,4 +251,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarListJobs;

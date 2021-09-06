@@ -1,12 +1,14 @@
 import React from "react";
 import Card from "./Card";
+import SearchByKeyword from "./SearchByKeyword";
 
 const BottomNavContent = () => {
   return (
     <div class="container">
       <div class="row">
-        <div class="col">Column</div>
-
+        <div class="col" style={{ marginTop: "1.9rem" }}>
+          <SearchByKeyword />
+        </div>
         <div class="col-9">
           <div class="row">
             <div class="col-8" style={{ marginTop: "1.9rem" }}>

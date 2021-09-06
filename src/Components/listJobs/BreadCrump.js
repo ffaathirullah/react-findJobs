@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron } from "reactstrap";
-const BreadCrimp = () => {
+const BreadCrump = () => {
   return (
     <Jumbotron>
       <div className="container">
@@ -18,4 +18,4 @@ const BreadCrimp = () => {
   );
 };
 
-export default BreadCrimp;
+export default BreadCrump;
